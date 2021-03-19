@@ -26,4 +26,4 @@ Here are some ideas to get you started:
 -->
 
 
-!()[https://raw.githubusercontent.com/Dup4/Dup4/metrics/github-metrics.svg?token=AJERIYWVU7AKFCKCYJ7GPXLAKTBAY]
+![](https://raw.githubusercontent.com/Dup4/Dup4/metrics/github-metrics.svg?token=AJERIYWVU7AKFCKCYJ7GPXLAKTBAY)
