@@ -1,10 +1,8 @@
 name: Metrics
 on:
-  # Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
-  # Schedule updates (each hour)
-#   schedule: 
-#     - cron: "*/30 * * * *"
-  # Lines below let you run workflow manually and on each commit
+  schedule: 
+    # every two days
+    - cron: "0 0 */2 * *"
   workflow_dispatch:
 
 jobs:
