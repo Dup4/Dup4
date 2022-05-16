@@ -1,6 +1,6 @@
 name: Metrics
 on:
-  schedule: 
+  schedule:
     # every two days
     - cron: "0 0 */2 * *"
   workflow_dispatch:
@@ -13,11 +13,12 @@ jobs:
         with:
           # Your GitHub token
           token: ${{ secrets.GH_TOKEN }}
+
           # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: metrics
           filename: metrics.svg
-          
+
           # Options
           user: Dup4
           template: classic
